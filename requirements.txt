@@ -1,5 +1,5 @@
 flask
-tensorflow-cpu==2.15
+tensorflow==2.13.0
 numpy
 pillow
 opencv-python-headless
