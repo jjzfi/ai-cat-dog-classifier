@@ -22,7 +22,7 @@ MODEL_PATH = "weights.h5"
 if not os.path.exists(MODEL_PATH):
     print("Downloading model from Google Drive...")
     
-    url = "https://drive.google.com/uc?id=1rnzOHtj8jLKpqaSvu5xKhWrYcTdMcXmm"
+    url = "https://drive.google.com/file/d/1c-95fzmdcTrlBw5anRj138Ky3xE30wCR/view?usp=sharing"
     gdown.download(url, MODEL_PATH, quiet=False)
 
 # ==========================================
